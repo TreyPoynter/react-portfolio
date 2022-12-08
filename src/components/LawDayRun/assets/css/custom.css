@@ -1,0 +1,90 @@
+.slider-bg1 {
+  background-image: url('../lawdayrun_stuff/279469522_753632769337200_133185106332373554_n.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+}
+
+.slider-bg2 {
+  background-image: url('../lawdayrun_stuff/LDR7.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+}
+.slider-bg3 {
+  background-image: url('../lawdayrun_stuff/LDR10.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+  background-position: bottom;
+}
+.slider-bg4 {
+  background-image: url('../lawdayrun_stuff/LDR9.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+  background-position: top;
+}
+.slider-bg5 {
+  background-image: url('../lawdayrun_stuff/LDR8.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+}
+.slider-bg6 {
+  background-image: url('../lawdayrun_stuff/LDR3.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+}
+.slider-bg7 {
+  background-image: url('../lawdayrun_stuff/IMGP1747.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+  background-position: top;
+}
+
+.hero-header-color {
+  color: #ffcb01 !important;
+}
+.hero-info-color {
+  color: #fff !important;
+}
+.hero-btn {
+  background-color: #009901 !important;
+}
+
+.footer-social li .linc {
+  background: rgb(212, 212, 212);
+}
+
+.fa-solid, .fa-handshake-simple{
+  color: #000;
+}
+
+.text-gold{
+  color: #f7d346 !important;
+}
+.text-silver{
+  color: rgb(109, 109, 109);
+}
+.text-bronze{
+  color: #CD7F32;
+}
+
+.responsive-iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 30em;
+}
+
+.card-img-top {
+  height: 10rem;
+}
+
+.slicknav_nav {
+  background-color: #212529;
+}
+
+.slicknav_arrow{
+  color: #fff !important;
+}
+
+.active {
+  color: #a8a8a8 !important;
+}
+
+.mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
+  /*background-color: #009901 !important; */
+  background-color: #ffcb01 !important;
+}

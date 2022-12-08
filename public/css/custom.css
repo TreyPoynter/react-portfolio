@@ -1,0 +1,27 @@
+/* your styles go here */
+.cardItem{
+    width: 100%;
+}
+
+.navbar-logo{
+    width: 3em;
+}
+
+.text-dark{
+    color: #000;
+}
+
+#hero{
+    background-image: url(../images/headshot.jpg);
+    height: 100%;
+    width: 100vw;
+}
+
+@media only screen and (max-width: 400px) {
+    .projects {
+        flex-direction: column;
+    }
+    .project-item {
+        width: 100%;
+    }
+}

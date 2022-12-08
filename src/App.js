@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import PortfolioHomePage from './components/PortfolioHomePage/portfolioHomePage.js';
+import LootFondlingProject from './components/LootFondlingProject/lootFondlingApp.js';
+import LawDayRunHome from './components/LawDayRun/lawDayRunHome.js';
+import Contact from './components/LawDayRun/contact';
+import RaceInfo from './components/LawDayRun/raceInfo';
+import Sponsors from './components/LawDayRun/sponsors';
+import Volunteer from './components/LawDayRun/volunteer';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<PortfolioHomePage/>}/>
+
+        <Route path='/lootFondling' element={<LootFondlingProject/>}/>
+
+        <Route path='/lawDayRun/home' element={<LawDayRunHome/>}/>
+        <Route path='/lawDayRun/contact' element={<Contact/>}/>
+        <Route path='/lawDayRun/raceInfo' element={<RaceInfo/>}/>
+        <Route path='/lawDayRun/sponsors' element={<Sponsors/>}/>
+        <Route path='/lawDayRun/volunteer' element={<Volunteer/>}/>
+      </Routes>
+    </>
   );
 }
 
