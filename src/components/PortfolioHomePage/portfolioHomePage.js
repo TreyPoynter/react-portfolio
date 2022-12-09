@@ -175,7 +175,7 @@ function PortfolioHomePage() {
                                 <img src={LawDayRunImage} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Law Day Run Site</h5>
-                                    <NavLink to='/lawDayRun/home'>
+                                    <NavLink to='https://trey-lawdayrun.vercel.app/'>
                                         <a href="#!" target="blank" rel="noreferrer" className="btn btn-primary">Click Me to Visit</a>
                                     </NavLink>
                                 </div>
