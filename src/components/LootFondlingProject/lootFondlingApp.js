@@ -1,11 +1,11 @@
 import './style/card.css'
 import { NavLink } from 'react-router-dom';
 import {useState, useEffect} from 'react';
-import treasureItems from './TreasureItems/treasureItems.js'
-import AddTreasure from './AddTreasure/addTreasure.js';
-import Treasure from './Treasure/treasure.js';
-import SearchTreasure from './SearchTreasure/searchTreasure.js';
-import {keyword} from './SearchTreasure/searchTreasure.js';
+import treasureItems from '../LootFondlingProject/TreasureItems/treasureItems.js'
+import AddTreasure from '../LootFondlingProject/AddTreasure/addTreasure.js';
+import Treasure from '../LootFondlingProject/Treasure/treasure.js';
+import SearchTreasure from '../LootFondlingProject/SearchTreasure/searchTreasure.js';
+import {keyword} from '../LootFondlingProject/SearchTreasure/searchTreasure.js';
 import './style/searchTreasure.css';
 import './style/addTreasure.css';
 import './style/card.css';
