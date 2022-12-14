@@ -89,10 +89,10 @@ function LootFondlingApp() {
         spawnRate={spawnRate} setSpawnRate={setSpawnRate} selectedFile={selectedFile} setSelectedFile={setSelectedFile}/>
       <SearchTreasure searchTreasure={searchTreasure}/>
       <div className="row">
-        {searchResults && searchResults.map((treasure) => // loops through the allTreasureItems with .map
+        {searchResults && searchResults.map((treasureItems) => // loops through the allTreasureItems with .map
           (
-            <div className="col-lg-3 col-md-6" key={treasure.id}>
-              <Treasure treasure={treasure} deleteTreasure={deleteTreasure} editTreasureItem={editTreasureItem} name={name} setName={setName} goldAmount={goldAmount} setGoldAmount={setGoldAmount} 
+            <div className="col-lg-3 col-md-6" key={treasureItems.id}>
+              <Treasure treasure={treasureItems} deleteTreasure={deleteTreasure} editTreasureItem={editTreasureItem} name={name} setName={setName} goldAmount={goldAmount} setGoldAmount={setGoldAmount} 
                 spawnRate={spawnRate} setSpawnRate={setSpawnRate}/>
             </div>
           )
