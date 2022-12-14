@@ -1,14 +1,14 @@
 import './style/card.css'
 import { NavLink } from 'react-router-dom';
 import {useState, useEffect} from 'react';
-import treasureItems from '/src/components/TreasureItems/treasureItems.js'
-import AddTreasure from '/src/components/AddTreasure/addTreasure.js';
-import Treasure from '/src/components/Treasure/treasure.js';
-import SearchTreasure from '/src/components/SearchTreasure/searchTreasure.js';
-import {keyword} from '/src/components/SearchTreasure/searchTreasure.js';
-import '/style/searchTreasure.css';
-import '/style/addTreasure.css';
-import '/style/card.css';
+import treasureItems from './TreasureItems/treasureItems.js'
+import AddTreasure from './AddTreasure/addTreasure.js';
+import Treasure from './Treasure/treasure.js';
+import SearchTreasure from './SearchTreasure/searchTreasure.js';
+import {keyword} from './SearchTreasure/searchTreasure.js';
+import './style/searchTreasure.css';
+import './style/addTreasure.css';
+import './style/card.css';
 
 function LootFondlingApp() {
   // our hook to 'reel' in the data
